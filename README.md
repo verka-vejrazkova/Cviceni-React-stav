@@ -1,6 +1,6 @@
 # Project Starters
 
-Základní nastavení projektu pro obecnou webovou aplikaci s Webpackem.
+Základní nastavení projektu pro Reactovou webovou aplikaci s Webpackem.
 
 ## Vývoj
 
