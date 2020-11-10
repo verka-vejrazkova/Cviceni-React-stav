@@ -1,6 +1,6 @@
-# Project Starters
+# Základ pro cvičení React událostí
 
-Základní nastavení projektu pro Reactovou webovou aplikaci s Webpackem.
+Základní nastavení projektu a podklady pro řešení úloh.
 
 ## Vývoj
 
