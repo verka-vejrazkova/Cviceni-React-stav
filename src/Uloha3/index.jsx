@@ -1,25 +1,31 @@
 import React from 'react'
+import dice1Url from './1.svg'
+import dice2Url from './2.svg'
+import dice3Url from './3.svg'
+import dice4Url from './4.svg'
+import dice5Url from './5.svg'
+import dice6Url from './6.svg'
 
-// Zadání: Dopiš komponentu tak, aby každé tlačítko po kliknutí vypsalo, jako volbu uživatel vybral. Například pro poslední `console.log('Uživatel zvolil zimu')`.
+const diceUrls = [dice1Url, dice2Url, dice3Url, dice4Url, dice5Url, dice6Url]
+
+// Zadání 1: Převeď `cisloNaKostce` na stavovou proměnnou.
+// Zadání 2: Po kliku na tlačítko zvětš číslo na kostce o jedna. Po šetce by měla následovat jednička.
+// Zadání 3: Vypiš v textu `<p>`, jaké číslo kostka ukazuje.
+// Zadání 4: Vypiš v atributu `alt` správné číslo.
 
 export const Uloha3 = () => {
+	const cisloNaKostce = 1 /* jedna až šest */
+
 	return (
 		<>
-			Které roční období je ve střední Evropě nejteplejší?
-			<ol>
-				<li>
-					<button>jaro</button>
-				</li>
-				<li>
-					<button>léto</button>
-				</li>
-				<li>
-					<button>podzim</button>
-				</li>
-				<li>
-					<button>zima</button>
-				</li>
-			</ol>
+			<img
+				src={diceUrls[cisloNaKostce - 1]} /* indexy se číslují od nuly */
+				width={60}
+				height={60}
+				alt="Kostka s číslem @TODO"
+			/>
+			<p>Na kostce je číslo @TODO.</p>
+			<button>další</button>
 		</>
 	)
 }

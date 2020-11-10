@@ -1,21 +1,33 @@
 import React from 'react'
+import './hamburger.css'
 
-// Zadání 1: Dopiš komponentu `NakupniPolozka`, aby v divu byl vypsaný název položky a tlačítko s textem „koupit“.
-// Zadání 2: Po kliknutí na tlačítko vypiš do konzole „Uživatel chce koupit DOPLŇ_NÁZEV_POLOŽKY“.
-
-export const NakupniPolozka = ({ nazev }) => {
-	return <div>@TODO</div>
-}
-
-// Zadání 3: Pomocí `polozky.map` vypiš všechny názvy jako nákupní položky.
+// Zadání 1: Přichystej si stavovou proměnnou, ve které bude uloženo, jestli je menu otevřené nebo nikoliv.
+// Zadání 2: Po kliknutí na button změň stav z `true` na `false` nebo obráceně.
+// Zadání 3: Nerenderuj `ul`, pokud je stav `false`.
+// Zadání 4: Pokud je menu zavřené nech mu jen třídu `hamburger`. Pro otevřené přidej navíc `hamburger--open`.
 
 export const Uloha5 = () => {
-	const polozky = ['hrušky', 'jablka', 'třešně', 'jahody']
-
 	return (
 		<>
-			<NakupniPolozka nazev="hrušky" />
-			<NakupniPolozka nazev="jablka" />
+			<button className="hamburger" aria-label="menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<ul>
+				<li>
+					<a href="#o-nas">O nás</a>
+				</li>
+				<li>
+					<a href="#co-delame">Co děláme</a>
+				</li>
+				<li>
+					<a href="#kontakty">Kontakty</a>
+				</li>
+				<li>
+					<a href="#cenik">Ceník</a>
+				</li>
+			</ul>
 		</>
 	)
 }
