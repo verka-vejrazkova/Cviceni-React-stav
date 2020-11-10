@@ -12,7 +12,7 @@ import { ZaverecnyBonus2 } from './ZaverecnyBonus2'
 
 render(
 	<>
-		<h1>React události</h1>
+		<h1>React stav</h1>
 		<h2>Úloha 1</h2>
 		<Uloha1 />
 		<h2>Úloha 2</h2>
