@@ -9,6 +9,7 @@ import { Uloha4 } from './Uloha4'
 import { Uloha5 } from './Uloha5'
 import { Uloha6 } from './Uloha6'
 import { Uloha7 } from './Uloha7'
+import { Uloha8 } from './Uloha8'
 import { ZaverecnyBonus1 } from './ZaverecnyBonus1'
 import { ZaverecnyBonus2 } from './ZaverecnyBonus2'
 import { ZaverecnyBonus3 } from './ZaverecnyBonus3'
@@ -31,6 +32,8 @@ render(
 		<Uloha6 />
 		<h2>Úloha 7</h2>
 		<Uloha7 />
+		<h2>Úloha 8</h2>
+		<Uloha8 />
 		<h2>Závěrečný bonus 1</h2>
 		<ZaverecnyBonus1 />
 		<h2>Závěrečný bonus 2</h2>
