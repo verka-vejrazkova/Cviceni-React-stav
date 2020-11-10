@@ -5,6 +5,7 @@ import dice3Url from './3.svg'
 import dice4Url from './4.svg'
 import dice5Url from './5.svg'
 import dice6Url from './6.svg'
+import './kostka.css'
 
 const diceUrls = [dice1Url, dice2Url, dice3Url, dice4Url, dice5Url, dice6Url]
 
@@ -17,15 +18,16 @@ export const Uloha3 = () => {
 	const cisloNaKostce = 1 /* jedna až šest */
 
 	return (
-		<>
+		<div className="kostka">
 			<img
 				src={diceUrls[cisloNaKostce - 1]} /* indexy se číslují od nuly */
 				width={60}
 				height={60}
 				alt="Kostka s číslem @TODO"
+				className="kostka__ikona"
 			/>
-			<p>Na kostce je číslo @TODO.</p>
-			<button>další</button>
-		</>
+			<p className="kostka__text">Na kostce je číslo @TODO.</p>
+			<button className="kostka__akce">další</button>
+		</div>
 	)
 }
