@@ -12,6 +12,7 @@ import { Uloha7 } from './Uloha7'
 import { ZaverecnyBonus1 } from './ZaverecnyBonus1'
 import { ZaverecnyBonus2 } from './ZaverecnyBonus2'
 import { ZaverecnyBonus3 } from './ZaverecnyBonus3'
+import { ZaverecnyBonus4 } from './ZaverecnyBonus4'
 
 render(
 	<>
@@ -36,6 +37,8 @@ render(
 		<ZaverecnyBonus2 />
 		<h2>Závěrečný bonus 3</h2>
 		<ZaverecnyBonus3 />
+		<h2>Závěrečný bonus 4</h2>
+		<ZaverecnyBonus4 />
 	</>,
 	document.querySelector('#app'),
 )
