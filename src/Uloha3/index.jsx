@@ -9,7 +9,7 @@ import dice6Url from './6.svg'
 const diceUrls = [dice1Url, dice2Url, dice3Url, dice4Url, dice5Url, dice6Url]
 
 // Zadání 1: Převeď `cisloNaKostce` na stavovou proměnnou.
-// Zadání 2: Po kliku na tlačítko zvětš číslo na kostce o jedna. Po šetce by měla následovat jednička.
+// Zadání 2: Po kliku na tlačítko zvětši číslo na kostce o jedna. Po šetce by měla následovat jednička.
 // Zadání 3: Vypiš v textu `<p>`, jaké číslo kostka ukazuje.
 // Zadání 4: Vypiš v atributu `alt` správné číslo.
 
