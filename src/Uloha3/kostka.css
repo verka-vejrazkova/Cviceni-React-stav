@@ -1,4 +1,4 @@
-img[alt~='{cisloNaKostce}'] ~ .kostka__text::before {
+img[alt*='cisloNaKostce'] ~ .kostka__text::before {
 	color: red;
 	display: block;
 	content: 'V atributu `src` je chyba!';
