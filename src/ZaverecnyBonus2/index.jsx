@@ -20,8 +20,8 @@ const Kasicka = ({ pocatecniStav }) => {
 export const ZaverecnyBonus2 = () => {
 	return (
 		<>
-			{[0, 20, 50, 8].map((hodnota) => (
-				<Kasicka pocatecniStav={hodnota} />
+			{[0, 20, 50, 8].map((hodnota, i) => (
+				<Kasicka pocatecniStav={hodnota} key={i} />
 			))}
 		</>
 	)
