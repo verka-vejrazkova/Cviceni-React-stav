@@ -26,7 +26,7 @@ export const Uloha4 = () => {
 			<div className="carousel__media">
 				<img
 					className="carousel__image"
-					src="https://source.unsplash.com/WLUHO9A_xik/880x500"
+					src="https://source.unsplash.com/7go5UASxmDY/880x500"
 					alt=""
 				/>
 			</div>
