@@ -1,12 +1,8 @@
-# Základ pro cvičení React událostí
+# Cvičení: React události
 
-Základní nastavení projektu a podklady pro řešení úloh.
+## Zadání
 
-## Vývoj
-
-1. Nainstalujte závislosti příkazem `npm install`.
-1. Spusťte watch s dev serverem příkazem `npm run start`.
-
-## Produkční sestavení
-
-Pro produkční sestavení pusťte příkaz `npm run build`.
+1. Stáhni si repozitář jako [ZIP](https://github.com/Czechitas-podklady-WEB/Cviceni-React-udalosti/archive/zadani.zip) nebo ho k sobě naklonuj `git clone https://github.com/Czechitas-podklady-WEB/Cviceni-React-udalosti.git`
+1. Nainstaluj závislosti `npm install`
+1. Spusť vývojový server `npm start`
+1. Postupně projdi soubory `src/Uloha1/index.jsx`, `src/Uloha2/index.jsx`, `…` a vypracuj zadání v komentářích.
