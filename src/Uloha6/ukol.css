@@ -1,3 +1,10 @@
+.ukol {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	min-height: 2em;
+}
+
 .ukol__nazev {
 	display: inline-block;
 	min-width: 150px;
