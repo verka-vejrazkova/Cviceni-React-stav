@@ -11,23 +11,13 @@ export const Uloha1 = () => {
 
 	return (
 		<div className="zarovka">
-			{jeZapnuta ? (
-				<img
-					src={onUrl}
-					width={80}
-					height={80}
-					alt="Zapnutá žárovka"
-					className="zarovka__ikona"
-				/>
-			) : (
-				<img
-					src={offUrl}
-					width={80}
-					height={80}
-					alt="Vypnutá žárovka"
-					className="zarovka__ikona"
-				/>
-			)}
+			<img
+				src={jeZapnuta ? onUrl : offUrl}
+				width={80}
+				height={80}
+				alt={jeZapnuta ? 'Zapnutá žárovka' : 'Vypnutá žárovka'}
+				className="zarovka__ikona"
+			/>
 			<div className="zarovka__tlacitka">
 				<button className="zarovka__tlacitko" disabled={jeZapnuta}>
 					zapnout
