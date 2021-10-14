@@ -1,8 +1,11 @@
 import React from 'react'
 
-// Zadání: Pomocí dvou stavových proměnných s výchozí hodnotou 0, které se budou měnit podle vstupních políček, vypiš do `<output></output>` jejich součet.
+// Zadání:
+// Pomocí dvou stavových proměnných s výchozí hodnotou 0,
+// které se budou měnit podle vstupních políček,
+// vypiš do `<output></output>` jejich součet.
 
-export const ZaverecnyBonus4 = () => {
+const ZaverecnyBonus4 = () => {
 	return (
 		<>
 			<input type="number" defaultValue="0" /> +{' '}
@@ -10,3 +13,5 @@ export const ZaverecnyBonus4 = () => {
 		</>
 	)
 }
+
+export default ZaverecnyBonus4;

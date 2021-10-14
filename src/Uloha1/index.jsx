@@ -1,12 +1,21 @@
 import React, { useState } from 'react'
+
 import offUrl from './off.svg'
 import onUrl from './on.svg'
 import './zarovka.css'
 
-// Zadání 1: Po kliku na tlačítko `zapnout` zavolej `setJeZapnuta(true)`.
-// Zadání 2: Po kliku na tlačítko `vypnout` zhasni.
+// Tvoříš komponentu, ve kteréé jde tlačítkem rozsvítit nebo zhasnout žárovka.
 
-export const Uloha1 = () => {
+// Zadání 1:
+// Po kliknutí na tlačítko `zapnout` zavolej `setJeZapnuta(true)`.
+
+// Zadání 2:
+// Po kliknutí na tlačítko `vypnout` žárovku zhasni.
+
+// Prostuduj si kód a zjisti, jak všechno funguje.
+// Neboj se a ptej se kouče, když nebudeš vědět.
+
+const Uloha1 = () => {
 	const [jeZapnuta, setJeZapnuta] = useState(false)
 
 	return (
@@ -29,3 +38,5 @@ export const Uloha1 = () => {
 		</div>
 	)
 }
+
+export default Uloha1;

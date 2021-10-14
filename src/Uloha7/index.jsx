@@ -1,10 +1,22 @@
 import React from 'react'
 import './ukazatel-uspechu.css'
 
-// Zadání 1: Použij prop `barva` ve style atributu.
-// Zadání 2: Přidej komponentě číselný stav od nuly do sta, který bude reprezentovat postup.
-// Zadání 3: Po kliknutí na tlačítko zvětši stav o deset. Nejvýše ale do sta.
-// Zadání 4. Nastav prvku `ukazatel-uspechu__postup` šířku podle stavové proměnné.
+// Děláš jednoduchou komponentu, která ukazuje "progress bar",
+// proužek, který ukazuje pokrok v nějakém procesu.
+
+// Zadání 1:
+// Použij prop `barva` ve style atributu, aby bal proužek barvou
+// předanou jako prop do komponenty.
+
+// Zadání 2:
+// Přidej komponentě číselný stav od nuly do sta,
+// který bude reprezentovat postup.
+
+// Zadání 3:
+// Po kliknutí na tlačítko zvětši stav o deset. Nejvýše ale do sta.
+
+// Zadání 4:
+// Nastav prvku `ukazatel-uspechu__postup` šířku podle stavové proměnné.
 
 const UkazatelPokroku = ({ barva }) => {
 	return (
@@ -23,7 +35,7 @@ const UkazatelPokroku = ({ barva }) => {
 	)
 }
 
-export const Uloha7 = () => {
+const Uloha7 = () => {
 	return (
 		<>
 			<UkazatelPokroku barva="blue" />
@@ -32,3 +44,5 @@ export const Uloha7 = () => {
 		</>
 	)
 }
+
+export default Uloha7;

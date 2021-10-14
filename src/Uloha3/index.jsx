@@ -9,12 +9,23 @@ import './kostka.css'
 
 const diceUrls = [dice1Url, dice2Url, dice3Url, dice4Url, dice5Url, dice6Url]
 
-// Zadání 1: Převeď `cisloNaKostce` na stavovou proměnnou.
-// Zadání 2: Po kliku na tlačítko zvětši číslo na kostce o jedna. Po šetce by měla následovat jednička.
-// Zadání 3: Vypiš v textu `<p>`, jaké číslo kostka ukazuje.
-// Zadání 4: Vypiš v atributu `alt` správné číslo.
+// Tvoříš komponentu, která zobrazuje hrací kostku, kterou
+// jde kliknutím posunout na další číslo na kostce.
 
-export const Uloha3 = () => {
+// Zadání 1:
+// Z proměnné `cisloNaKostce` udělej stavovou proměnnou.
+
+// Zadání 2:
+// Po kliku na tlačítko zvětši číslo na kostce o jedna.
+// Po šetce by měla následovat jednička.
+
+// Zadání 3:
+// Vypiš v textu `<p>`, jaké číslo kostka ukazuje.
+
+// Zadání 4:
+// Vypiš v atributu `alt` u obrázku správné číslo.
+
+const Uloha3 = () => {
 	const cisloNaKostce = 1 /* jedna až šest */
 
 	return (
@@ -31,3 +42,5 @@ export const Uloha3 = () => {
 		</div>
 	)
 }
+
+export default Uloha3;

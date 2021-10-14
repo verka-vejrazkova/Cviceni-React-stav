@@ -1,7 +1,15 @@
 import React from 'react'
 
-// Zadání 1: Převeď `cislo` na stavovou proměnnou.
-// Zadání 2: Nastav, aby jednotlivá tlačítka měnila stav. +1 přičítalo jedničku, +5 přičítalo pětku, vynulovat nastavovalo na nulu apod.
+// Děláš počítadlo, kde jde tlačítky zvětšovat nebo zmenšovat hodnota.
+
+// Zadání 1:
+// Z proměnné `cislo` udělej stavovou proměnnou.
+// Nezapomeň na všechno, co musíš udělat, když chceš použít useState.
+
+// Zadání 2:
+// Nastav, aby jednotlivá tlačítka měnila stav `cislo`
+// Tlačíítko +1 aby přičítalo jedničku, +5 přičítalo pětku,
+// tlačítko Vynulovat nastavovalo číslo na nulu apod.
 
 const Pocitadlo = () => {
 	const cislo = 0
@@ -11,14 +19,14 @@ const Pocitadlo = () => {
 			<h3>Počítadlo: {cislo}</h3>
 			<button>-5</button>
 			<button>-1</button>
-			<button>vynulovat</button>
+			<button>Vynulovat</button>
 			<button>+1</button>
 			<button>+5</button>
 		</>
 	)
 }
 
-export const Uloha2 = () => {
+const Uloha2 = () => {
 	return (
 		<>
 			<Pocitadlo />
@@ -26,3 +34,5 @@ export const Uloha2 = () => {
 		</>
 	)
 }
+
+export default Uloha2;

@@ -1,10 +1,19 @@
 import React from 'react'
 
-// Zadání 1: Vytvoř stavovou proměnnou s výchozí hodnotou `'možná'`.
-// Zadání 2: Proměnnou vypiš místo `ano/ne/možná`.
-// Zadání 3: Po kliknutí na tlačítko změň `možná` na `ano`, `ano` na `ne`, případně `ne` na `možná`.
+// Tvoříš komponentu, která zobrazuje vysoce přesnou předpověď
+// počasí v Brně.
 
-export const Uloha8 = () => {
+// Zadání 1:
+// Vytvoř stavovou proměnnou s výchozí hodnotou `možná`.
+
+// Zadání 2:
+// Proměnnou vypiš místo `ano/ne/možná`.
+
+// Zadání 3:
+// Po kliknutí na tlačítko změň `možná` na `ano`, `ano` na `ne`,
+// případně `ne` na `možná`.
+
+const Uloha8 = () => {
 	return (
 		<>
 			<h3>Prší v Brně: ano/ne/možná</h3>
@@ -12,3 +21,5 @@ export const Uloha8 = () => {
 		</>
 	)
 }
+
+export default Uloha8;
