@@ -18,6 +18,7 @@ import './zarovka.css'
 const Uloha1 = () => {
 	const [jeZapnuta, setJeZapnuta] = useState(false)
 
+
 	return (
 		<div className="zarovka">
 			<img
@@ -28,12 +29,12 @@ const Uloha1 = () => {
 				className="zarovka__ikona"
 			/>
 			<div className="zarovka__tlacitka">
-				<button className="zarovka__tlacitko" disabled={jeZapnuta}>
+				{ jeZapnuta ? (<button className="zarovka__tlacitko" onClick={setJeZapnuta} disabled={jeZapnuta}>
 					zapnout
-				</button>
-				<button className="zarovka__tlacitko" disabled={!jeZapnuta}>
+				</button>) :
+				(<button className="zarovka__tlacitko" /*onClick={jeVypnuta}*/ disabled={!jeZapnuta}>
 					vypnout
-				</button>
+				</button>) }
 			</div>
 		</div>
 	)
